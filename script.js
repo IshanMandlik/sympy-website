@@ -32,6 +32,6 @@ function getData(){
 
 function getSteps() {
     var outputContent = document.getElementById('output').innerHTML,
-    url = 'C:/Users/admin/Desktop/api_to_html/steps.html?output=' + encodeURIComponent(outputContent);
+    url = 'https://github.com/IshanMandlik/sympy-website/blob/master/steps.html?output=' + encodeURIComponent(outputContent);
     document.location.href = url;
 }
